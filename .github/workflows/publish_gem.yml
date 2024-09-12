@@ -3,6 +3,9 @@ name: Publish Gem
 on:
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   build_and_publish:
     name: Build, tag & publish

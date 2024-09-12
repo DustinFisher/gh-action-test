@@ -6,6 +6,7 @@ RSpec.describe Gh::Action::Test do
   end
 
   it "does something useful" do
-    expect(false).to eq(true)
+    # Replace this placeholder test with a meaningful test for your gem's functionality
+    expect(Gh::Action::Test.hello_world).to eq("Hello, World!")
   end
 end

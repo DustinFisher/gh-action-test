@@ -6,7 +6,10 @@ module Gh
   module Action
     module Test
       class Error < StandardError; end
-      # Your code goes here...
+
+      def self.hello_world
+        "Hello, World!"
+      end
     end
   end
 end

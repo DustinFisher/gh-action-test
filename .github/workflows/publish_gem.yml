@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  publish:
+  publish_and_release:
     name: Publish gem to RubyGems.org
     runs-on: ubuntu-latest
 
